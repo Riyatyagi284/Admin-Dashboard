@@ -1,0 +1,61 @@
+@media screen and (min-width:400px) and (max-width: 767px) {
+
+    .search-form>input,
+    .search-form>.dateRang,
+    .search-form>.timeRang {
+        width: 30%;
+        margin: 0px 1rem;
+    }
+    .bankTransaction {
+        display: flex;
+    }
+    .bankTransaction > .form-select {
+        width: 40%;
+        margin: 0;
+    }
+    /* .row>* {
+        width: auto;
+    } */
+}
+
+
+
+/* Account Statement  */
+
+@media screen and (min-width:993px) {
+    .Acc-select1-parent, .Acc-select2 {
+        width: 270px;
+    }
+
+    .Acc-dropdown {
+        width: 70%;
+    }
+    
+} 
+
+@media screen and (max-width:993px) {
+    .Acc-select-middle {
+        display: none;
+    }
+
+    .Acc-select1-parent, .Acc-select2 {
+        width: 50%;
+    }
+
+    .Acc-dropdown {
+        width: 70%;
+    }
+
+    .btns-container{
+        display: flex;
+    }
+} 
+
+@media screen and (min-width:280px) and (max-width: 400px) {
+    .Acc-search-input, .Acc-dropdown {
+        width: 24rem;
+    }
+    .Acc-dropdown {
+        width: 84%;
+    }
+} 

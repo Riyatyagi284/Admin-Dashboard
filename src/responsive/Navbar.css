@@ -1,0 +1,183 @@
+/* @media screen and (ma-width:1279px) {
+    
+} */
+
+@media screen and (min-width:280px) and (max-width:993px) {
+    .sidebar {
+        display: none;
+    }
+
+    .rightside {
+        width: 100%;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .nav-left>input {
+        display: none;
+    }
+
+    .largeScreenHam {
+        display: none;
+    }
+
+    .ham-parent {
+        width: 6rem;
+        margin-left: 1rem;
+    }
+
+    .SmallScreenHam {
+        display: block;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .SmallScreenHamParent {
+        display: flex;
+        align-items: center;
+        width: 40%;
+    }
+
+    .taj-logo-parent {
+        margin-left: -3rem;
+        width: 18rem;
+        height: 7rem;
+        background: #dddcdc;
+        padding: 2rem 1rem;
+    }
+
+    .taj-logo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .nav-right {
+        width: auto;
+    }
+
+    .navright-searchIcon {
+        display: block;
+        fill: #fff;
+    }
+
+    .navright-fullScreenIcon {
+        display: none;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:993px) {
+    .nav-left {
+        display: none;
+    }
+
+    .css-1c32n2y-MuiBadge-root {
+        display: none !important;
+    }
+
+    svg {
+        width: auto;
+    }
+
+    .anchor {
+        display: flex;
+    }
+}
+
+@media screen and (min-width:280px) and (max-width:577px) {
+    .nav-left {
+        display: none;
+    }
+
+    .anchor {
+        display: none;
+    }
+
+    .points {
+        display: none;
+    }
+}
+
+@media screen and (min-width:280px) and (max-width:500px) {
+    .nav-right {
+        float: right;
+        margin-right: -3rem;
+        gap: 1rem;
+    }
+
+    .taj-logo-parent {
+        height: auto;
+        padding: 2.8rem 1rem;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:500px) {
+    .taj-logo-parent {
+        height: auto;
+        padding: 2.28rem 1rem;
+    }
+}
+
+
+@media screen and (min-width:993px) {
+    .rightside {
+        position: absolute;
+        /* width: 80%; */
+        top: 0;
+        left: 0;
+        margin-left: 16.2%;
+        width: 84%;
+        padding: 0;
+    }
+
+    .sidebar {
+        width: 17%;
+        padding: 0;
+    }
+
+    .example1 {
+        height: 100vh;
+    }
+
+    .example1>.logo {
+        width: 80%;
+        height: 6.5rem;
+    }
+
+    .anchor,
+    .nav-left {
+        display: flex;
+    }
+
+    .navright-searchIcon {
+        display: none;
+    }
+
+    .navright-fullScreenIcon {
+        display: block;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border: 2px solid white;
+        width: 22rem;
+        padding: 1.6rem;
+        font-size: 1rem;
+    }
+
+    .nav-left>input {
+        display: block;
+    }
+
+    .SmallScreenHamParent {
+        display: none;
+    }
+
+    .largeScreenHam {
+        display: block;
+    }
+}

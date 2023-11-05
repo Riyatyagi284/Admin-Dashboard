@@ -1,0 +1,33 @@
+.template-box{
+    height: 300px;
+    overflow-y: auto;
+}
+
+.notification-box{
+    
+    height: 700px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.group-box{
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+.group-box {
+    font-size: 100% !important;
+}
+
+.filter-user-box{
+    margin-top: 4px;
+    /* height: 150px; */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.disabled{
+    opacity: 0.5;
+    pointer-events: none;
+}

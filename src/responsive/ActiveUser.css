@@ -1,0 +1,71 @@
+/* ################## ActiveUser responsiveStyling ##################### */
+@media screen and (min-width:401px) {
+    .search-form {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .M-login-header,
+    .activeUser-bg {
+        overflow-y: scroll;
+    }
+
+    .activeUser-filebtns {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .search-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+}
+ @media screen and (min-width:280px) {
+    .create-editgender {
+        margin-left: 3rem;
+    }
+ }
+
+/* ################## CreateAccount responsiveStyling ##################### */
+
+@media screen and (max-width:768px) {
+
+    .white-bg1,
+    .white-bg2 {
+        width: 98.8%;
+        padding: 2rem;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    .white-bg1,
+    .white-bg2 {
+        width: 48.8%;
+        padding: 2rem;
+        margin: auto;
+    }
+}
+
+/* ################## MultiLoginAccount responsiveStyling ##################### */
+
+@media screen and (max-width:992px) {
+    .table-section {
+        display: flex;
+        margin: 0 3rem;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width:993px) {
+    .multi-table-right {
+        overflow-x: scroll;
+    }
+}

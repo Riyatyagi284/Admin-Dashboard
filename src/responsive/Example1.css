@@ -1,0 +1,25 @@
+@media screen and (max-width:556px) {
+    .dashboard-wrapper {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:280px) and (max-width:400px) {
+    element.style {
+        width: 7rem;
+        height: 2rem;
+        margin-left: 0rem;
+        padding: -8rem;
+    }
+
+    li svg {
+        display: none;
+    }
+
+    .anchor p {
+        font-size: 0.67rem;
+        margin-left: -10px;
+    }
+}

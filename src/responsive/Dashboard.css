@@ -1,0 +1,26 @@
+@media screen and (max-width:756px) {
+    .stat {
+     width: 40%;
+    }
+    .dashboard-wrapper {
+        width: 90%;
+        margin: 0 2rem;
+    }   
+}
+@media screen and (min-width:993px) {
+      
+}
+
+/* ############## Market Analysis ##############*/
+
+@media screen and (min-width: 347px) { 
+    .Market-Analysis p {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width:280px) and (max-width:347px) {
+    .Market-Analysis p {
+        font-size: 0.78rem;
+    }
+}

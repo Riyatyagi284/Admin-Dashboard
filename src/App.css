@@ -1,0 +1,1055 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html,
+body {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.parent-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    padding: 0;
+}
+
+.rightside {
+    padding: 0;
+}
+
+.example1 {
+    width: 100%;
+    background: #f8f8fb;
+    margin: 0;
+    padding: 0;
+}
+
+.example2 {
+    height: 100vh;
+    width: 100%;
+    /* background: #FDFBFE; */
+    background: #efeded;
+    ;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: auto;
+    height: 6.5rem;
+    margin: 2rem;
+}
+
+.anchor {
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 100%;
+    height: auto;
+    margin: 2rem;
+    align-items: center;
+    gap: 1.2rem;
+    color: #495057;
+    position: relative;
+}
+
+.anchor p {
+    margin-bottom: 0;
+}
+.dropdown-toggle {
+    position: absolute;
+    /* top: 3.5rem;
+    left: 11rem; */
+    top: 32rem;
+    left: 5rem;
+    padding: 10px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    z-index: 1;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.dropdown-toggle1 {
+    position: absolute;
+    /* top: 4rem;
+    left: 10rem; */
+    top: 42rem;
+    left: 5rem;
+    padding: 10px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    z-index: 1;
+}
+/* .dropdown {
+    position: relative;
+}
+
+.dropdown-toggle {
+    position: absolute;
+    top: 32rem;
+    left: 5rem;
+    margin-bottom: 120px;
+    min-width: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-toggle1 {
+    position: absolute;
+    top: 42rem;
+    left: 5rem;
+    margin-bottom: 120px;
+    min-width: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+/* ############### Navbar Styling ############### */
+.navbar-header {
+    background: #0088CC;
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parent-nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    align-items: center;
+}
+
+.nav-left {
+    height: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: start;
+    gap: 1.4rem;
+    align-items: center;
+}
+
+.nav-left>input {
+    width: 26rem;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    outline: none;
+    border: #fff;
+    font-size: 1rem;
+}
+
+.anchor-extra {
+    width: 8rem;
+    margin: 2px;
+    margin-left: 10px;
+}
+
+.banner {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid white;
+    width: 22rem;
+    padding: 1.6rem;
+    font-size: 1rem;
+}
+
+.nav-right {
+    display: flex;
+    width: 35rem;
+    height: 7rem;
+    justify-content: start;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav-rule {
+    color: #EF910F;
+    font-weight: 400;
+}
+
+.points {
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.user {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.6rem;
+    width: 10rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 2rem;
+}
+
+/* ############ Stat ################ */
+.stat-parent {
+    margin: 1rem;
+}
+
+.stat {
+    margin: 0.2rem;
+    width: 23.4%;
+    height: 10rem;
+    background: #fff;
+    border-radius: 0.58rem;
+    /* flex: 1 1 auto; */
+    margin: 0.47rem;
+    padding: 1.75rem;
+    box-shadow: 2px 2px 2px 2px rgba(136, 136, 136, 0.5);
+}
+
+.stat p {
+    color: #74788d;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.stat h2 {
+    color: #495057;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+/* ################## Market Analysis ################### */
+.market {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 2rem;
+    margin-right: 1rem;
+}
+
+.Market-Analysis {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.Market-Analysis p {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #495057;
+    gap: 1rem;
+}
+
+.search input {
+    display: block;
+    width: 22rem;
+    padding: 1rem;
+    margin-right: 4rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/* ############## MultiLoginAccount ################## */
+
+.M-login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin: 0.3rem 1rem;
+}
+
+.M-login-header h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #495057;
+    font-weight: 700;
+}
+
+.M-login-header-right {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.M-login-anchor {
+    width: 5rem;
+    margin: 0.4rem;
+}
+
+.M-login-header-right .span {
+    font-size: 1.6rem !important;
+}
+
+.white-bg {
+    background: #fff;
+    width: 95%;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.form-parent {
+    width: 93%;
+    background: #dfdddd;
+    margin: 2rem auto;
+}
+
+.form-parent p {
+    color: #3a3b3d;
+    ;
+    font-weight: 500;
+    font-size: 1.8rem;
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+    margin-left: 1.5rem;
+}
+
+.form-check {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin: 1rem;
+}
+
+.form-row label {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #6a6e81;
+}
+
+.form-row input {
+    padding: 0.86rem;
+}
+
+.form-check input {
+    width: 1.35rem;
+    height: 1.4rem;
+}
+
+.form-check label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #495057;
+}
+
+.priviledge-box {
+    background-color: #ececec;
+    border: 1px solid #ddd;
+    padding: 0.7rem;
+    padding: 1.2rem;
+    margin: 1rem;
+}
+
+.btn {
+    margin: 1rem;
+    width: 12rem;
+    background: white;
+    color: grey;
+    border: grey;
+    padding: 1.4rem;
+    margin-right: 0rem;
+}
+
+.btn-green {
+    width: 8rem;
+    background: rgb(19, 209, 184);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.btn-green:hover {
+    background: rgb(30, 128, 114);
+    color: #dfdddd;
+}
+.btn-red {
+    width: 8rem;
+    background: rgb(236, 84, 84);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.btn-red:hover {
+    background: red;
+    color: #dfdddd;
+}
+
+.btn-black {
+    width: 8rem;
+    background: rgb(29, 27, 27);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.btn-black:hover {
+    background: #000;
+    color: #dfdddd;
+}
+
+.btn-grey {
+    width: 7rem;
+    background: #ced4da;
+    color: #000;
+    border: grey;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.btn-grey:hover {
+    background: #636466;
+    color: rgb(20, 19, 19);
+}
+.bn-green{
+    padding: 0.5rem;
+    float: right;
+}
+.bn-black{
+    padding: 0.5rem;
+    float: right!important;
+}
+.btn-groups {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* ############ Table Styling ############### */
+
+.outter {
+    position: relative;
+}
+
+.inner {
+    overflow-x: scroll;
+    /* margin-left: 450px; */
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #495057;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #eff2f7;
+}
+
+.fixed-col-1 {
+    position: absolute;
+    left: 0;
+    width: 150px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.fixed-col-2 {
+    position: absolute;
+    left: 150px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.fixed-col-3 {
+    position: absolute;
+    left: 300px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.table-bordered th {
+    white-space: nowrap;
+    /* height: 4rem; */
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1.8rem;
+}
+
+.table-bordered td {
+    padding: 1.8rem;
+}
+
+.fixed-col-1,
+.fixed-col-2,
+.fixed-col-3 {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.btn1 {
+    color: #fff;
+    background: black;
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.btn1:hover {
+    color: #fff;
+    background: rgb(90, 84, 84);
+}
+
+.btn2 {
+    color: #fff;
+    background: rgb(26, 26, 131);
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.btn2:hover {
+    color: #fff;
+    background: rgb(87, 87, 231);
+}
+
+.btn3 {
+    color: #fff;
+    background: green;
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.btn3:hover {
+    color: #fff;
+    background: rgb(66, 212, 66);
+}
+
+.text-center {
+    text-align: center
+}
+
+/* th:nth-child(n+4),
+td:nth-child(n+4) {
+    margin-left: 8577px;
+    /* Adjust this value to add spacing between fixed and regular td elements */
+}
+
+*/ #dash {
+    margin-left: 857px !important;
+}
+
+
+/* ################ Active User ############## */
+.form-control {
+    display: block;
+    width: 26rem;
+    height: calc(1.5em + 0.94rem + 2px);
+    padding: 2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.search-form {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* margin-left: 0.4rem; */
+}
+
+.btn-green-file {
+    width: 4rem;
+    height: auto;
+    background: rgb(19, 209, 184);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.btn-green-file:hover {
+    background: rgb(13, 94, 83);
+    color: #fff;
+}
+
+.btn-red-file {
+    width: 4rem;
+    height: auto;
+    background: red;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.btn-red-file:hover {
+    background: rgb(224, 53, 53);
+    color: #fff;
+}
+
+.search-form-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.create-acc {
+    width: 17rem;
+    padding: 1.2rem;
+}
+
+.datatable_length {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #2C3E50;
+    margin: 1rem;
+    margin-bottom: 1rem;
+}
+
+.table-responsive {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #232527;
+    margin: 1rem;
+}
+
+.btn-blue-file {
+    width: 8rem;
+    height: auto;
+    background: rgb(77, 202, 252);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.btn-blue-file:hover {
+    background: rgb(7, 132, 182);
+    color: #fff;
+}
+
+.table-responsive td {
+    color: #495057;
+}
+
+.pagii {
+    text-align: end;
+}
+
+.table>thead {
+    vertical-align: bottom;
+    position: relative;
+    z-index: -1;
+}
+
+/* ############# Create Account Stying ################### */
+.Account-heading {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(43, 42, 42);
+}
+
+.create-Account-left-form label {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(83, 77, 77);
+    margin-bottom: 0.7rem;
+}
+
+.create-Account-left-form input {
+    width: 98%;
+    margin-bottom: 1.4rem;
+}
+
+.create-Account-right-form label {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(83, 77, 77);
+    margin-bottom: 0.7rem;
+}
+
+.create-Account-right-form input,
+.create-Account-right-form .select {
+    width: 98%;
+    margin-bottom: 1.4rem;
+}
+
+.create-Account-right-form .select {
+    padding: 1.2rem;
+    font-size: 1.4rem;
+}
+
+.create-Account-right-form option {
+    padding: 1.2rem;
+    font-size: 1.4rem;
+}
+
+.white-bg1 {
+    background: #fff;
+    width: 48.8%;
+    height: auto;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.Account-para {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(43, 42, 42);
+}
+
+textarea.form-control {
+    width: 98%;
+    height: auto;
+    resize: vertical;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #333;
+    border: 1px solid #ccc;
+    margin-bottom: 1.4rem;
+    border-radius: 5px;
+    text-align: left;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px dodgerblue;
+}
+
+#submit-left {
+    width: 76%;
+}
+
+.Acc-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+/* ############### Modal Styling ###################### */
+
+
+.table>:not(caption)>*>* {
+    background-color: unset;
+    /* This sets the background-color to its default value */
+}
+
+/* .modal1 h2{
+    font-size: 3vh;
+    overflow-y: hidden;
+} */
+
+/* #####Deposite Form Modal ######### */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width:100%;
+    background: rgb(16, 207, 150);
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 1.2rem;
+}
+.modal1{
+    background: #fff;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  top: 40%;
+  left: 50%;
+  overflow: hidden!important;
+  transform: translate(-50%, -50%);
+    z-index: 9999 !important;
+    height: auto;
+    overflow: scroll;
+    border-radius: 0.9rem;
+    padding-bottom: 1rem;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-d-control {
+    display: block;
+    padding: 0.3rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 0.4rem;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.txt-right{
+    width: 7rem;
+}
+.form-group{
+    width: 28rem;
+}
+.nav-item{
+    overflow: hidden;
+}
+.tab-parent{
+    margin-top: 1rem;
+    margin-right: 60%;
+    width: 8rem;
+   border-left:1px solid#636466;
+   border-top:1px solid#636466;
+   border-right:1px solid#636466;
+   border-bottom:none;
+
+}
+.tab-content{
+    padding: 0.7rem;
+    border-left:1px solid#636466;
+    border-top:1px solid#636466;
+    border-right:1px solid#636466;
+    border-bottom:1px solid#636466;
+
+}
+.form-group-amnt,.form-group-rmrk,.form-group-trans{
+    width: 95%;
+}
+.form-group-amnt,.form-group-rmrk,.form-group-trans{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.4em;
+}
+.nav-link{
+    color: #232527;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.col-form-label{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #74788d;
+}
+.r-header{
+    background: rgb(236, 84, 84);
+    color: #fff;
+}
+
+/* ################### More Modal Styling ##################### */
+.more-modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more-head h2{
+    overflow: hidden;
+}
+.more-modal1{
+    width: 700px;
+    top: 43%;
+}
+.more-tb-content{
+    width: 96%;
+}
+.tab-buttons{
+    width: 96%;
+}
+.tab-buttons button{
+    width:auto;
+    font-size: 1rem;
+    padding: 1rem;
+    border:none;
+    background: none;
+    border-left: 1px grey;
+    border-top: 1px grey;
+    border-right: 1px grey;
+}
+.more-tb-content{
+    background: #f8f8fb;
+    border: none;
+    outline: none;
+}
+.tab-row1-left1,.tab-row1-left2{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    outline: none;
+    width: 96%;
+    height: auto;
+}
+.circle{
+    display: inline-block;
+    margin: 1rem auto;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.4rem;
+    background: #707fca;;
+}
+.para1,.para2{
+    color: #343a40;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.para2{
+    color: #74788d;
+}
+.tab-row1-left2{
+    display: flex!important;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+.tab-row1-left3{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    outline: none;
+    width: 100%;
+    height: 20rem;
+}
+.tab-row1-left3 h3{
+    overflow: hidden;
+}
+.tab-row1-right{
+    height: 43rem;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    outline: none;
+    width: 50%;
+}
+.tab-row1-right h3{
+    overflow: hidden;
+    margin-bottom: 1.6rem;
+}
+.profile-table{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: grey;
+}
+.profile-table th,.profile-table td{
+ display: inline-block;
+ margin: 0.4rem;
+}
+.profile-table th{
+    color: rgb(19, 18, 18);
+}
+.more-label{
+    width: 30%;
+    margin: 2rem 0;
+}
+.form-group-feedback{
+    width: 70%;
+}
+.form-group-feedback input{
+    width: 100%;
+    margin: 1rem 0;
+}
+.custom-control {
+    display: inline-block;
+    width: 65%;
+    margin: 1.4rem 0;
+}
+.more-trans input{
+    width: 50%;
+    margin-left: 11rem;
+    margin-top: 1.4rem;
+}
+.more-trans-label{
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+
+/* #################### Chat ############### */
+
+.chats-box{
+    color: #000;
+
+}
+
+.chats-box h2{
+    font-size: 15px !important;
+}
